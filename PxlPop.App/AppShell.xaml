@@ -11,7 +11,7 @@
 
     <Shell.FlyoutHeader>
         <VerticalStackLayout Padding="20" Spacing="15" BackgroundColor="{StaticResource Primary}" >
-            <Image Source="logo_pxl_hogeschool.png" Aspect="AspectFill" />
+            <Image Source="logo_pxl_hogeschool.png" Aspect="AspectFit"  />
         </VerticalStackLayout>
     </Shell.FlyoutHeader>
 
@@ -57,17 +57,11 @@
         ContentTemplate="{DataTemplate pages:FavouritesPage}"
         Route="FavouritesPage" />
     
-    <ShellContent
-        Title="Account"
-        Icon="{mi:FontAwesomeSolid CircleUser, IconColor={StaticResource Primary}}"
-        ContentTemplate="{DataTemplate pages:AccountPage}"
-        Route="AccountPage" />
-
     <Shell.FlyoutFooter>
         <VerticalStackLayout Padding="20" Spacing="15" BackgroundColor="{StaticResource Primary}">
             <Label Text="Powered by" HorizontalTextAlignment="Center" Style="{StaticResource Title}" 
                    TextColor="Black"/>
-            <Image Source="logo_pxl_digital.png" Aspect="AspectFill" />
+            <Image Source="logo_pxl_digital.png" Aspect="AspectFit" />
         </VerticalStackLayout>
     </Shell.FlyoutFooter>
 </Shell>
